@@ -54,20 +54,20 @@
           "producto": "tortillas",
           "precio": 19.0,
           "cantidad": 50,
-          "total": 950.0,
+          "total": 19,
           "manufacture_date": "2025-10-10",
           "expiry_date": "2026-10-10",
-          "shelf_life_days": 365
+          "shelf_life_days": 1
         },
         {
           "categoria": "7 JULIO",
           "producto": "huevo",
           "precio": 43.0,
           "cantidad": 50,
-          "total": 2150.0,
+          "total": 21.0,
           "manufacture_date": "2025-10-10",
           "expiry_date": "2026-10-10",
-          "shelf_life_days": 365
+          "shelf_life_days": 7
         },
         {
           "categoria": "7 JULIO",
