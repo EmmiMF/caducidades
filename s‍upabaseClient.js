@@ -35,9 +35,11 @@ Supabase ya genera esto internamente:
 Ejemplo directo:
 
 ```js
+*/
 const { data } = await supabase
   .from('inventario')
   .select('*');
+/*
 ```
 
 ---
@@ -96,17 +98,21 @@ Tú ya tienes:
 Guardar:
 
 ```js
+*/
 await supabase.from('inventario').insert([
   { nombre: "Producto 1", cantidad: 10 }
 ]);
+/*
 ```
 
 Leer:
 
 ```js
+*/
 const { data } = await supabase.from('inventario').select('*');
 console.log(data);
-```
+/*
+ ```
 
 ---
 
